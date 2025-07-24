@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
     <head>
-        <title></title>@include('partials.head')
+        <title>Header</title>@include('partials.head')
     </head>
     <body class="min-h-screen accent-yellow-300 dark:bg-zinc-800">
         <flux:header container class="border-b accent-yellow-300 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
